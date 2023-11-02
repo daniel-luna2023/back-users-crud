@@ -21,7 +21,7 @@ const Crud = sequelize.define("crud", {
     allowNull: false,
   },
   birthday: {
-    type: DataTypes.DATE,
+    type: DataTypes.DATEONLY,
     allowNull: false,
   },
 });
